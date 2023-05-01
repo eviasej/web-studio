@@ -146,3 +146,21 @@ footer{
 .contacts-link-footer{
     color: var(--address-footer-color);
 }
+/* portfolio */
+
+.job-title{
+    font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+
+color:var(--primary-text-color);
+}
+
+.job-text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+
+color:var(--secondary-text-color);
+}
