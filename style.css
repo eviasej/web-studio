@@ -9,13 +9,13 @@
 
 }
 
-body{   
+/*body{   
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     letter-spacing: 0.03em;
     color:var(--primary-text-color) ;
     background-color: var(--background-color);
-}
+}*/
 
 a{
     text-decoration: none;
@@ -23,6 +23,31 @@ a{
 ul{
     list-style: none;
 }
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right:auto ;
+    margin-left: auto;
+
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
 
 /*шапка сайту*/
 
@@ -102,39 +127,6 @@ font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 
-color:var(--secondary-text-color);
-}
-.titles,
-.names,
-.occupation,
-.hero-button{
-    text-align: center;
-}
-
-.names,
-.occupation{
-    font-size: 16px;
-line-height: 19px;
-}
-
-.titles{
-    font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-}
-.names{
-    font-weight: 500;
-}
-.occupation{
-    font-weight: 400;
-
-color:var(--secondary-text-color);
-}
-footer{
-    background-color: var(--hero-background);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
 }
 .logo .dif-color{
     color: var(--background-color);
@@ -163,4 +155,146 @@ font-size: 16px;
 line-height: 30px;
 
 color:var(--secondary-text-color);
+}
+.section {
+    padding-bottom: 162px;
+    padding-top: 80px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.1px;
+
+    color: #FFFFFF;
+    background:
+        linear-gradient(0deg, rgba(23, 16, 16, 0.6), rgba(23, 16, 16, 0.6)), url(./Rectangle\ 48.jpg);
+
+}
+
+.container {
+    width: 1100px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-family: 'Poppins';
+    font-size: 58px;
+    line-height: 80px;
+
+
+}
+
+.direction,
+.title {
+    letter-spacing: 0.2px;
+}
+
+.direction {
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+
+}
+
+.button-1 {
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0px;
+
+    width: 236px;
+    height: 68px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 119px;
+    height: 36px;
+
+
+
+
+}
+
+.button-list {
+    list-style: none;
+}
+
+.button-2 {
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    box-sizing: border-box;
+    padding: 16px 0px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 119px;
+    height: 36px;
+
+}
+/*Our team*/
+
+.section .our-team{
+    background: #F5F4FA;
+
+}
+
+.team-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-list .img{
+    margin-bottom: 30px;
+}
+
+.team-list .item{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.names{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    margin-bottom: 10px;
+
+}
+
+.occupation{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-text-color);
+
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: var(--hero-background);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
 }
